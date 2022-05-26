@@ -11,4 +11,5 @@ the base game comes with a Main Menu, A game Scene, A shop with 2 items, A small
 All you will need is already installed with this package,
 
 > Prefs Editor (For seeing the saved data)
+
 > TextMeshPro (For better UI Text)
