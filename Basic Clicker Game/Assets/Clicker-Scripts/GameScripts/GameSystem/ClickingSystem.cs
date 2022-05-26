@@ -5,7 +5,7 @@ using UnityEngine;
 public class ClickingSystem : MonoBehaviour
 {
     public ClickStorage clickStorage;
-    public int amountPerClick = 1;
+    public int amountPerClick;
     public void Clicked()
     {
         clickStorage.AddClick(amountPerClick);

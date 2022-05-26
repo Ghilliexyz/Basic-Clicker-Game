@@ -17,6 +17,13 @@ public class ClickStorage : MonoBehaviour
     {
         amountOfClicks += amount;
         saveSystem.SaveClicks(amountOfClicks);
-        Debug.Log(amountOfClicks);
+        Debug.Log("Added: " + amountOfClicks);
+    }
+
+    public void RemoveClick(int amount)
+    {
+        amountOfClicks -= amount;
+        saveSystem.SaveClicks(amountOfClicks);
+        Debug.Log("Removed: " + amountOfClicks);
     }
 }
