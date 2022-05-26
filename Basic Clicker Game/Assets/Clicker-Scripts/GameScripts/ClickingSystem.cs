@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class ClickingSystem : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public ClickStorage clickStorage;
+    public int amountPerClick = 1;
+    public void Clicked()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        clickStorage.AddClick(amountPerClick);
+        Debug.Log("Clicked!");
     }
 }
